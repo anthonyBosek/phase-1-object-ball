@@ -116,12 +116,29 @@ function gameObject() {
   };
   return gameObject;
 }
-console.log("My Game Object");
-console.log(gameObject());
+// console.log("My Game Object");
+// console.log(gameObject());
 
 function homeTeamName() {
   let object = gameObject();
   return object["home"]["teamName"];
 }
+// console.log(homeTeamName());
 
-console.log(homeTeamName());
+// ----- practice functions -----
+const data = gameObject();
+// console.log(data);
+
+const numPointsScored = () => {};
+const shoeSize = () => {};
+const teamColors = () => {};
+const teamNames = () => {};
+const playerNumbers = () => {};
+const playerStats = () => {};
+const bigShoeRebounds = () => {};
+// *bonus
+const mostPointsScored = () => {};
+const winningTeam = () => {};
+const playerWithLongestName = () => {};
+// **super bonus
+const doesLongNameStealATon = () => {};
